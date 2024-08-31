@@ -85,6 +85,7 @@ function App() {
   return (
     <div>
       <header>
+        <div className="legacy-message">舊版於 2024-09 結束支援不再更新，請用新版</div>
         <nav>
           <h1>
             <span onClick={showAbout}>切韻音系自動推導器（舊版）</span>

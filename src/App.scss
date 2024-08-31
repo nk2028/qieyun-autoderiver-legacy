@@ -21,9 +21,14 @@ body {
       "Noto Serif CJK TC", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", "HanaMin", monospace, monospace;
     font-language-override: "KOR";
   }
+  .legacy-message {
+    text-align: center;
+    background-color: hsl(200, 75%, 80%);
+    margin: 0;
+  }
   nav {
     padding: 0 2em;
-    @media (max-width: 48rem) {
+    @media (max-width: 53rem) {
       margin-top: 5rem;
     }
     h1 {
@@ -49,7 +54,7 @@ body {
     }
     & + span {
       position: absolute;
-      top: 1em;
+      top: 2em;
       right: 2em;
       border: none;
       text-align: right;
