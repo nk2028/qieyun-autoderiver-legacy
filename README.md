@@ -1,4 +1,4 @@
-# qieyun-autoderiver
+# qieyun-autoderiver (legacy v0.1 with Qieyun.js v0.13)
 
 An automatic tool to generate the derivatives of the Qieyun phonological system
 

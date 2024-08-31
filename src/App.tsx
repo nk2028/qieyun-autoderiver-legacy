@@ -87,12 +87,12 @@ function App() {
       <header>
         <nav>
           <h1>
-            <span onClick={showAbout}>切韻音系自動推導器</span>
+            <span onClick={showAbout}>切韻音系自動推導器（舊版）</span>
           </h1>
         </nav>
         <span>
           <a className="btn" onClick={showAlert} href="https://syimyuzya.github.io/qieyun-autoderiver">
-            🆙 新版本測試中 立即試用
+            🆙 新版即將上線 立即試用
           </a>
           <br />
           <a target="_blank" rel="noreferrer" href="https://github.com/nk2028/qieyun-js/discussions/43">
