@@ -105,6 +105,7 @@ export const schemas = {
   kyonh: "古韻羅馬字",
   zyepheng: "隋拼",
   karlgren: "高本漢擬音",
+  wangli: "王力擬音",
   panwuyun: "潘悟雲擬音",
   unt: "unt 切韻擬音",
   msoeg_v8: "msoeg 中古擬音 V8",
