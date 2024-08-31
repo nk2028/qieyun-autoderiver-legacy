@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/qieyun-autoderiver-legacy/static/css/main.a4a38989.chunk.css",
-    "main.js": "/qieyun-autoderiver-legacy/static/js/main.7ca3f580.chunk.js",
-    "main.js.map": "/qieyun-autoderiver-legacy/static/js/main.7ca3f580.chunk.js.map",
+    "main.js": "/qieyun-autoderiver-legacy/static/js/main.bb62f2cd.chunk.js",
+    "main.js.map": "/qieyun-autoderiver-legacy/static/js/main.bb62f2cd.chunk.js.map",
     "runtime-main.js": "/qieyun-autoderiver-legacy/static/js/runtime-main.b5b3759b.js",
     "runtime-main.js.map": "/qieyun-autoderiver-legacy/static/js/runtime-main.b5b3759b.js.map",
     "static/css/2.814901b2.chunk.css": "/qieyun-autoderiver-legacy/static/css/2.814901b2.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.814901b2.chunk.css",
     "static/js/2.51101cce.chunk.js",
     "static/css/main.a4a38989.chunk.css",
-    "static/js/main.7ca3f580.chunk.js"
+    "static/js/main.bb62f2cd.chunk.js"
   ]
 }
