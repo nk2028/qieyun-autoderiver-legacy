@@ -3,7 +3,6 @@ import "./App.scss";
 import Main from "./Main";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
-import { MouseEvent } from "react";
 
 const SwalReact = withReactContent(Swal);
 
@@ -30,7 +29,7 @@ function showAbout() {
           <a href="https://t.me/nk2028_discuss">@nk2028_discuss</a>）。
         </p>
         <p>
-          本頁面原始碼公開於 <a href="https://github.com/nk2028/qieyun-autoderiver">GitHub</a>。
+          本頁面原始碼公開於 <a href="https://github.com/nk2028/qieyun-autoderiver-legacy">GitHub</a>。
         </p>
 
         <h2>私隱權政策</h2>
@@ -52,54 +51,24 @@ function showAbout() {
   });
 }
 
-function showAlert(event: MouseEvent<HTMLAnchorElement>) {
-  const href = (event.target as HTMLAnchorElement).href;
-  event.preventDefault();
-  SwalReact.fire({
-    icon: "info",
-    title: "注意",
-    html: (
-      <>
-        <p>新版推導器近期將正式上線，使用最新的 Qieyun.js v0.15（舊版到時將移至別處繼續上線）。</p>
-        <p>
-          新版推導器現有經過更新的推導方案供試用。新舊版推導方案代碼並不相同，不能互換使用。如您有自己的方案代碼想要更新，兩版的
-          API 與音韻地位差異請參見
-          <a target="_blank" rel="noreferrer" href="https://github.com/nk2028/qieyun-js/discussions/43">
-            遷移指南
-          </a>
-          。
-        </p>
-      </>
-    ),
-    //allowOutsideClick: false,
-    confirmButtonText: "了解",
-    width: "80vw",
-  }).then(result => {
-    if (result.isConfirmed) {
-      window.location.assign(href);
-    }
-  });
-}
-
 function App() {
   return (
     <div>
       <header>
-        <div className="legacy-message">舊版於 2024-09 結束支援不再更新，請用新版</div>
+        <div className="legacy-message">
+          舊版於 2024-09 結束支援不再更新，請用
+          <a href="https://syimyuzya.github.io/tshet-uinh-autoderiver">新版推導器</a>
+          （升級推導方案請參
+          <a target="_blank" rel="noreferrer" href="https://github.com/nk2028/tshet-uinh-js/discussions/43">
+            遷移指南
+          </a>
+          ）
+        </div>
         <nav>
           <h1>
             <span onClick={showAbout}>切韻音系自動推導器（舊版）</span>
           </h1>
         </nav>
-        <span>
-          <a className="btn" onClick={showAlert} href="https://syimyuzya.github.io/qieyun-autoderiver">
-            🆙 新版即將上線 立即試用
-          </a>
-          <br />
-          <a target="_blank" rel="noreferrer" href="https://github.com/nk2028/qieyun-js/discussions/43">
-            ⏫ Qieyun.js v0.15 遷移指南
-          </a>
-        </span>
       </header>
       <Main />
     </div>
