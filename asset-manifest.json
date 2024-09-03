@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/qieyun-autoderiver-legacy/static/css/main.0ab64365.chunk.css",
-    "main.js": "/qieyun-autoderiver-legacy/static/js/main.eb73180e.chunk.js",
-    "main.js.map": "/qieyun-autoderiver-legacy/static/js/main.eb73180e.chunk.js.map",
+    "main.css": "/qieyun-autoderiver-legacy/static/css/main.407d38b5.chunk.css",
+    "main.js": "/qieyun-autoderiver-legacy/static/js/main.86d2d86d.chunk.js",
+    "main.js.map": "/qieyun-autoderiver-legacy/static/js/main.86d2d86d.chunk.js.map",
     "runtime-main.js": "/qieyun-autoderiver-legacy/static/js/runtime-main.b5b3759b.js",
     "runtime-main.js.map": "/qieyun-autoderiver-legacy/static/js/runtime-main.b5b3759b.js.map",
     "static/css/2.814901b2.chunk.css": "/qieyun-autoderiver-legacy/static/css/2.814901b2.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.6f7d14ff.chunk.js.map": "/qieyun-autoderiver-legacy/static/js/3.6f7d14ff.chunk.js.map",
     "index.html": "/qieyun-autoderiver-legacy/index.html",
     "static/css/2.814901b2.chunk.css.map": "/qieyun-autoderiver-legacy/static/css/2.814901b2.chunk.css.map",
-    "static/css/main.0ab64365.chunk.css.map": "/qieyun-autoderiver-legacy/static/css/main.0ab64365.chunk.css.map",
+    "static/css/main.407d38b5.chunk.css.map": "/qieyun-autoderiver-legacy/static/css/main.407d38b5.chunk.css.map",
     "static/js/2.51101cce.chunk.js.LICENSE.txt": "/qieyun-autoderiver-legacy/static/js/2.51101cce.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b5b3759b.js",
     "static/css/2.814901b2.chunk.css",
     "static/js/2.51101cce.chunk.js",
-    "static/css/main.0ab64365.chunk.css",
-    "static/js/main.eb73180e.chunk.js"
+    "static/css/main.407d38b5.chunk.css",
+    "static/js/main.86d2d86d.chunk.js"
   ]
 }
