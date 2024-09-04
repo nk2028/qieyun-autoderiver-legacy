@@ -57,7 +57,7 @@ function App() {
       <header>
         <div className="legacy-message">
           舊版於 2024-09 結束支援不再更新，請用
-          <a href="https://syimyuzya.github.io/tshet-uinh-autoderiver">新版推導器</a>
+          <a href="https://nk2028.shn.hk/tshet-uinh-autoderiver">新版推導器</a>
           （升級推導方案請參
           <a target="_blank" rel="noreferrer" href="https://github.com/nk2028/tshet-uinh-js/discussions/43">
             遷移指南
