@@ -247,7 +247,7 @@ class Main extends React.Component<any, MainState> {
     };
 
     if (this.state.option === "convertPresetArticle" && !presetArticle) {
-      fetchFile("https://cdn.jsdelivr.net/gh/nk2028/qieyun-text-label@qieyun-0.13/index.txt", article => {
+      fetchFile("https://cdn.jsdelivr.net/gh/nk2028/tshet-uinh-text-label@qieyun-0.13/index.txt", article => {
         presetArticle = article;
         this.handlePredefinedOptions();
       });
